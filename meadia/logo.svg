@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 864" width="1536" height="864" role="img" aria-labelledby="title desc">
+  <title id="title">Anuhang watercolor art logo</title>
+  <desc id="desc">An editable vector recreation of a colorful watercolor ring, artist palette, paintbrushes, and the handwritten name Anuhang.</desc>
+  <defs>
+    <linearGradient id="ringA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18aeb4"/><stop offset=".22" stop-color="#55c5bd"/>
+      <stop offset=".42" stop-color="#f29a38"/><stop offset=".61" stop-color="#e95c35"/>
+      <stop offset=".8" stop-color="#1877a9"/><stop offset="1" stop-color="#f0b72d"/>
+    </linearGradient>
+    <linearGradient id="ringB" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#086a8a"/><stop offset=".23" stop-color="#25a9a7"/>
+      <stop offset=".48" stop-color="#e8a12f"/><stop offset=".72" stop-color="#ed5b2c"/>
+      <stop offset="1" stop-color="#1873ad"/>
+    </linearGradient>
+    <linearGradient id="letterBlue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24b8ce"/><stop offset=".45" stop-color="#07548d"/><stop offset="1" stop-color="#162e69"/></linearGradient>
+    <linearGradient id="letterGreen" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#66bf56"/><stop offset=".5" stop-color="#079d8e"/><stop offset="1" stop-color="#174f87"/></linearGradient>
+    <linearGradient id="letterOrange" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffb52d"/><stop offset=".48" stop-color="#ef682b"/><stop offset="1" stop-color="#c83b2c"/></linearGradient>
+    <linearGradient id="letterRed" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e45c32"/><stop offset=".55" stop-color="#c92e36"/><stop offset="1" stop-color="#8c2453"/></linearGradient>
+    <linearGradient id="brushTip" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ee392e"/><stop offset=".35" stop-color="#f7b62c"/><stop offset=".65" stop-color="#15aeb1"/><stop offset="1" stop-color="#2d5aa8"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="9"/></filter>
+    <filter id="paperShadow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="2"/></filter>
+  </defs>
+
+  <!-- Transparent canvas; all artwork is built from editable vector paths. -->
+  <g id="watercolor-splashes" opacity=".7">
+    <path d="M425 317 C457 215 539 126 650 101 C750 72 867 91 952 151 C1041 214 1091 304 1093 397 C1098 495 1046 593 955 650 C858 712 722 713 617 668 C516 626 433 548 405 453 C389 402 397 356 425 317Z" fill="none" stroke="#f4a33c" stroke-width="26" stroke-linecap="round" stroke-dasharray="145 26 90 22 180 32 110 45" opacity=".38"/>
+    <path d="M438 299 C478 203 574 129 680 115 C775 102 888 127 963 194 C1037 261 1071 347 1058 432 C1044 526 972 601 881 639 C790 676 674 663 587 619 C501 575 439 500 423 417 C414 372 420 334 438 299Z" fill="none" stroke="#22b7b4" stroke-width="33" stroke-linecap="round" stroke-dasharray="180 20 120 35 70 20 145 30" opacity=".5"/>
+    <path d="M461 255 C507 173 593 128 687 120 C778 111 873 139 940 197 C1007 255 1044 335 1038 415 C1032 496 982 566 908 609" fill="none" stroke="#ed6d37" stroke-width="21" stroke-linecap="round" stroke-dasharray="90 19 155 24 95 25" opacity=".78"/>
+    <path d="M438 363 C422 440 463 534 528 583 C600 638 670 662 742 666" fill="none" stroke="#0877a1" stroke-width="24" stroke-linecap="round" stroke-dasharray="105 22 68 25 95 20" opacity=".78"/>
+    <path d="M814 115 C887 126 953 167 992 220 C1025 264 1046 308 1053 355" fill="none" stroke="#f2c735" stroke-width="15" stroke-linecap="round" stroke-dasharray="75 22 50 18 35 15" opacity=".8"/>
+    <path d="M532 574 C603 644 701 680 801 672 C881 666 947 632 987 588" fill="none" stroke="#e85b35" stroke-width="19" stroke-linecap="round" stroke-dasharray="90 20 62 15 35 22" opacity=".72"/>
+    <path d="M473 242 C512 183 575 147 636 132" fill="none" stroke="#f18b42" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+    <path d="M428 461 C446 512 478 548 511 572" fill="none" stroke="#28a7a9" stroke-width="17" stroke-linecap="round" opacity=".65"/>
+    <path d="M980 507 C1004 465 1019 421 1018 382" fill="none" stroke="#176ca3" stroke-width="16" stroke-linecap="round" opacity=".68"/>
+    <path d="M557 604 C610 644 667 659 720 665" fill="none" stroke="#f2b72b" stroke-width="18" stroke-linecap="round" opacity=".75"/>
+    <path d="M594 123 C635 102 683 94 720 96" fill="none" stroke="#42bdb4" stroke-width="20" stroke-linecap="round" opacity=".65"/>
+  </g>
+
+  <g id="paint-dots" opacity=".85">
+    <circle cx="447" cy="167" r="6" fill="#dc7c3b"/><circle cx="463" cy="143" r="4" fill="#dc7c3b"/>
+    <circle cx="557" cy="89" r="7" fill="#17688d"/><circle cx="676" cy="57" r="5" fill="#21a8ae"/>
+    <circle cx="655" cy="72" r="4" fill="#21a8ae"/><circle cx="998" cy="99" r="6" fill="#edb52e"/>
+    <circle cx="1015" cy="114" r="4" fill="#edb52e"/><circle cx="1035" cy="129" r="3" fill="#edb52e"/>
+    <circle cx="1119" cy="278" r="5" fill="#176da0"/><circle cx="1130" cy="296" r="3" fill="#176da0"/>
+    <circle cx="1092" cy="527" r="6" fill="#237eaa"/><circle cx="1077" cy="554" r="4" fill="#237eaa"/>
+    <circle cx="1013" cy="646" r="6" fill="#e66a3a"/><circle cx="994" cy="668" r="4" fill="#e66a3a"/>
+    <circle cx="608" cy="752" r="5" fill="#e4aa22"/><circle cx="633" cy="765" r="3" fill="#e4aa22"/>
+    <circle cx="394" cy="572" r="4" fill="#178c9e"/><circle cx="385" cy="545" r="3" fill="#178c9e"/>
+    <circle cx="414" cy="328" r="5" fill="#d94c32"/><circle cx="402" cy="347" r="3" fill="#d94c32"/>
+    <circle cx="526" cy="112" r="4" fill="#e67c39"/><circle cx="1047" cy="179" r="4" fill="#f1b32e"/>
+  </g>
+
+  <!-- Broad imperfect circular brushstroke -->
+  <g id="circular-brushstroke" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M484 235 C533 160 621 121 709 120 C799 113 892 146 949 208 C1007 271 1035 341 1021 417 C1007 500 953 563 879 602 C802 642 710 649 625 615 C544 583 477 522 449 443 C427 380 440 306 484 235Z" stroke="url(#ringA)" stroke-width="20" opacity=".9"/>
+    <path d="M469 260 C516 190 593 149 680 139 C770 129 851 151 913 202" stroke="#24aeb2" stroke-width="12" opacity=".75"/>
+    <path d="M920 210 C972 265 1001 329 992 400 C985 467 943 526 887 559" stroke="#e99a2f" stroke-width="13" opacity=".82"/>
+    <path d="M856 590 C783 625 700 627 630 601 C557 574 501 521 473 458" stroke="#176ca5" stroke-width="13" opacity=".85"/>
+    <path d="M470 430 C450 363 467 295 507 244" stroke="#08789e" stroke-width="10" opacity=".8"/>
+    <path d="M520 214 C575 162 643 145 706 144" stroke="#e96b37" stroke-width="8" opacity=".8"/>
+    <path d="M756 140 C825 147 878 172 917 209" stroke="#f1c735" stroke-width="8" opacity=".85"/>
+    <path d="M550 559 C605 604 672 623 737 621" stroke="#f0b52b" stroke-width="10" opacity=".88"/>
+  </g>
+
+  <!-- A few translucent paint pools -->
+  <g id="paint-pools" opacity=".8">
+    <path d="M438 485 C454 490 464 510 457 529 C451 546 432 552 421 539 C410 526 419 502 438 485Z" fill="#178d9b"/>
+    <path d="M503 588 C522 579 541 589 544 607 C546 624 531 638 516 631 C500 625 490 603 503 588Z" fill="#0d718f"/>
+    <path d="M623 720 C638 709 658 719 662 735 C666 751 651 762 637 753 C623 746 615 731 623 720Z" fill="#f3bd27"/>
+    <path d="M976 575 C994 567 1007 582 1001 599 C996 614 977 622 968 607 C960 596 964 582 976 575Z" fill="#e96b35"/>
+    <path d="M1045 325 C1059 316 1071 329 1066 342 C1062 355 1047 360 1040 348 C1034 340 1037 331 1045 325Z" fill="#1c78a6"/>
+  </g>
+
+  <!-- Palette and brushes -->
+  <g id="artist-palette" transform="rotate(-13 757 225)">
+    <path d="M674 163 C688 133 738 124 781 137 C818 147 845 173 842 197 C839 216 820 218 801 218 C783 218 773 226 777 239 C782 253 771 267 751 270 C713 276 674 248 662 218 C654 196 659 179 674 163Z" fill="#f6c47b" stroke="#214d78" stroke-width="6" stroke-linejoin="round"/>
+    <ellipse cx="694" cy="180" rx="17" ry="15" fill="#e83435" stroke="#d84a2d" stroke-width="3"/>
+    <ellipse cx="747" cy="161" rx="17" ry="15" fill="#ffcf27" stroke="#f2a72b" stroke-width="3"/>
+    <ellipse cx="681" cy="218" rx="17" ry="15" fill="#e72730" stroke="#c93234" stroke-width="3"/>
+    <ellipse cx="718" cy="239" rx="17" ry="15" fill="#248bc0" stroke="#17628c" stroke-width="3"/>
+    <ellipse cx="759" cy="220" rx="17" ry="15" fill="#293e9a" stroke="#172e6e" stroke-width="3"/>
+    <ellipse cx="794" cy="190" rx="16" ry="13" fill="#f9faf2" stroke="#2c5b81" stroke-width="3"/>
+    <ellipse cx="724" cy="193" rx="16" ry="13" fill="#42b85b" stroke="#178b6c" stroke-width="3"/>
+  </g>
+
+  <g id="paintbrushes" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Rear brush -->
+    <g transform="rotate(31 855 208)">
+      <path d="M846 119 L863 119 L870 284 L850 287Z" fill="#f5d4a2" stroke="#24496f" stroke-width="5"/>
+      <path d="M847 128 L863 128 L865 155 L848 157Z" fill="#176a8f"/>
+      <path d="M850 157 L865 155 L866 165 L850 167Z" fill="#d8e2d9"/>
+      <path d="M850 274 L870 271 L872 286 L849 290Z" fill="#b77b45"/>
+      <path d="M848 121 C834 104 836 80 847 61 C857 79 872 84 871 101 C871 113 862 122 848 121Z" fill="url(#brushTip)" stroke="#24496f" stroke-width="4"/>
+      <path d="M848 115 C849 94 851 79 847 61" fill="none" stroke="#f5ce35" stroke-width="4"/>
+    </g>
+    <!-- Front brush -->
+    <g transform="rotate(43 832 232)">
+      <path d="M824 164 L840 164 L847 328 L827 332Z" fill="#f0d3a2" stroke="#24496f" stroke-width="5"/>
+      <path d="M825 173 L842 172 L843 196 L826 198Z" fill="#287ca3"/>
+      <path d="M826 198 L843 196 L844 207 L827 209Z" fill="#d9e1d7"/>
+      <path d="M827 318 L847 315 L849 331 L826 335Z" fill="#a96d3d"/>
+      <path d="M824 166 C810 151 812 134 824 117 C835 132 851 139 849 152 C847 163 836 169 824 166Z" fill="url(#brushTip)" stroke="#24496f" stroke-width="4"/>
+      <path d="M824 162 C828 147 829 132 824 117" fill="none" stroke="#f5ce35" stroke-width="3"/>
+    </g>
+  </g>
+
+  <!-- Main lettering: separate editable vector glyph-like paths, not a flattened image -->
+  <g id="lettering" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Soft light edging gives the calligraphy a painted, raised feel -->
+    <g fill="none" stroke="#f5edce" stroke-width="12" opacity=".9">
+      <path d="M487 469 C509 424 548 367 581 328 C595 311 604 329 599 354 L567 473 C560 498 551 515 539 515 C525 515 520 500 526 481 L546 414 C526 439 506 467 492 482 C478 495 465 484 475 469"/>
+      <path d="M586 468 C602 431 617 389 630 375 C641 363 650 378 648 397 L636 451 C652 421 670 391 681 394 C695 398 678 444 672 467 C667 486 677 492 691 476 L716 442"/>
+      <path d="M704 471 C715 438 725 405 738 390 C748 378 760 390 755 407 L739 462 C733 483 746 490 762 471 L790 434"/>
+      <path d="M760 464 C781 431 795 395 807 375 C818 355 828 370 821 392 L799 461 C793 481 806 490 822 474 L844 448"/>
+      <path d="M840 468 C857 431 872 393 888 391 C904 390 885 435 879 455 C874 473 887 486 903 469 L926 444"/>
+      <path d="M920 471 C940 434 958 399 974 401 C988 404 971 440 963 461 C955 484 972 489 987 470 C1003 450 1012 427 1017 405"/>
+    </g>
+    <!-- A -->
+    <path d="M487 469 C509 424 548 367 581 328 C595 311 604 329 599 354 L567 473 C560 498 551 515 539 515 C525 515 520 500 526 481 L546 414 C526 439 506 467 492 482 C478 495 465 484 475 469" fill="url(#letterBlue)" stroke="#174c83" stroke-width="5"/>
+    <path d="M509 448 C535 431 558 423 578 421" fill="none" stroke="#2ab9d0" stroke-width="7"/>
+    <!-- n -->
+    <path d="M586 468 C602 431 617 389 630 375 C641 363 650 378 648 397 L636 451 C652 421 670 391 681 394 C695 398 678 444 672 467 C667 486 677 492 691 476 L716 442" fill="none" stroke="url(#letterBlue)" stroke-width="12"/>
+    <path d="M630 407 C640 392 646 385 650 388" fill="none" stroke="#21a9c3" stroke-width="5"/>
+    <!-- u -->
+    <path d="M704 471 C715 438 725 405 738 390 C748 378 760 390 755 407 L739 462 C733 483 746 490 762 471 L790 434" fill="none" stroke="url(#letterGreen)" stroke-width="13"/>
+    <path d="M724 447 C736 432 747 417 752 402" fill="none" stroke="#f0a82c" stroke-width="4"/>
+    <!-- h -->
+    <path d="M760 464 C781 431 795 395 807 375 C818 355 828 370 821 392 L799 461 C793 481 806 490 822 474 L844 448" fill="none" stroke="url(#letterOrange)" stroke-width="13"/>
+    <path d="M798 429 C813 417 829 404 839 410 C849 416 837 440 831 457" fill="none" stroke="#f4a02e" stroke-width="5"/>
+    <!-- a -->
+    <path d="M840 468 C857 431 872 393 888 391 C904 390 885 435 879 455 C874 473 887 486 903 469 L926 444" fill="none" stroke="url(#letterGreen)" stroke-width="13"/>
+    <path d="M858 445 C869 429 880 411 891 404" fill="none" stroke="#69c45a" stroke-width="4"/>
+    <!-- n -->
+    <path d="M920 471 C940 434 958 399 974 401 C988 404 971 440 963 461 C955 484 972 489 987 470 C1003 450 1012 427 1017 405" fill="none" stroke="url(#letterOrange)" stroke-width="13"/>
+    <!-- g descender -->
+    <path d="M1017 405 C1011 439 1001 478 982 501 C963 524 942 525 931 510 C921 496 934 481 953 478 C976 474 999 486 1000 504 C1001 523 981 541 956 551" fill="none" stroke="url(#letterRed)" stroke-width="13"/>
+    <path d="M932 513 C942 527 962 523 977 511" fill="none" stroke="#e95c37" stroke-width="4"/>
+    <!-- Calligraphic swash under the middle letters -->
+    <path d="M568 515 C605 541 655 548 706 522 C724 513 746 505 761 511 C748 525 729 536 711 541" fill="none" stroke="url(#letterGreen)" stroke-width="8"/>
+    <path d="M691 541 C714 533 738 525 757 511" fill="none" stroke="#ee9b2d" stroke-width="5"/>
+  </g>
+</svg>

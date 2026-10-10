@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <div class="w-full max-w-7xl  mx-auto bg-slate-900 text-slate-100">
+    <div class="main-content relative">
+      <header class="bg-slate-900/50 backdrop-blur-md border-b-2 border-slate-800/60 sticky p-4 top-0 z-40 flex items-center justify-between">
+        <div class="flex items-center space-x-2">
+          <i class="fa-sharp fa-solid fa-ghost text-5xl from-cyan-400 to-sky-500 bg-linear-[200deg] bg-clip-text text-transparent"></i>
+          <div>
+            <h3 class="font-semibold text-2xl">Dashbord</h3>
+            <p class="text-xs">Manage yourself!</p>
+          </div>
+        </div>
+        <div class="flex items-center space-x-5">
+          <div class="relative">
+            <span class="font-bold text-red-800 absolute -top-4 right-0 text-4xl">•</span>
+          <button><i class="fa-solid fa-bell text-2xl"></i></button>
+          </div>
+          <button><i class="fa-solid fa-moon text-2xl"></i></button>
+          <button><i class="fa-solid fa-gear text-2xl"></i></button>
+        </div>
+      </header>
+      <div class="content p-4">
+        <!-- Welcome Banner -->
+        <div class="relative overflow-hidden rounded-3xl bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white p-6 sm:p-8 shadow-xl shadow-indigo-500/10 mb-4">
+            <div class="absolute -right-10 -bottom-10 w-60 h-60 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
+            <div class="relative z-10 max-w-2xl">
+                <span class="inline-block px-3 py-1 rounded-full bg-white/20 backdrop-blur-md text-xs font-medium mb-3">Welcome Back 👋</span>
+                <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-2">Your Workspace, Elevated.</h2>
+                <p class="text-indigo-100 text-sm sm:text-base leading-relaxed">Manage your tasks, track your focus time, see your weathers and manage your own time.</p>
+            </div>
+        </div>
+        <div class="line-1 grid grid-cols-3 gap-4">
+        <div class="bg-slate-900/60 backdrop-blur-md border-2 border-slate-800/60 rounded-sm p-2">
+          <div class="flex space-x-2">
+            <i class="fa-solid fa-clock text-2xl from-cyan-400 to-sky-500 bg-linear-[200deg] bg-clip-text text-transparent"></i>
+            <h2 class="font-bold text-xl text-slate-300">Time Right Now</h2>
+          </div>
+          <div class="w-fit mx-auto my-7 text-slate-300">
+            <p class="font-bold text-4xl">6:37</p>
+          <p>saturday, oct 10, 2026</p>
+          </div>
+          <div class="h-0.5 bg-slate-800/60"></div>
+          <div class="flex items-center justify-between">
+            <p>Timezone Synced</p>
+            <p>Tokyo</p>
+          </div>
+        </div>
+        <div class="bg-slate-900/60 backdrop-blur-md border-2 border-slate-800/60 rounded-sm p-2">
+          <div class="flex space-x-2">
+            <i class="fa-solid fa-cloud text-2xl from-cyan-400 to-sky-500 bg-linear-[200deg] bg-clip-text text-transparent"></i>
+            <h2 class="font-bold text-xl text-slate-300">Tempreture</h2>
+          </div>
+          <div class="w-fit mx-auto my-7 text-slate-300">
+          <p class="font-bold text-4xl">25<strong>°</strong></p>
+          <p>saturday, oct 10, 2026</p>
+          </div>
+          <div class="h-0.5 bg-slate-800/60"></div>
+          <div class="flex items-center justify-between">
+            <p>Location</p>
+            <p>Tokyo</p>
+          </div>
+        </div>
+        <div class="bg-slate-900/60 backdrop-blur-md border-2 border-slate-800/60 rounded-sm p-2">
+          <div class="flex space-x-2">
+            <i class="fa-solid fa-chart-simple text-2xl from-cyan-400 to-sky-500 bg-linear-[200deg] bg-clip-text text-transparent"></i>
+            <h2 class="font-bold text-xl text-slate-300">5 Days Forecast</h2>
+          </div>
+          <div class="w-fit mx-auto text-slate-300">
+            <p>Day 1</>---------------<strong>22°</strong></>
+            <p>Day 1</>---------------<strong>22°</strong></>
+            <p>Day 1</>---------------<strong>22°</strong></>
+            <p>Day 1</>---------------<strong>22°</strong></>
+            <p>Day 1</>---------------<strong>22°</strong></>
+          </div>
+        </div>
+          <div class="bg-slate-900/30 backdrop-blur-md border-2 border-slate-800/60 rounded-sm p-2 col-span-2 relative z-20">
+          <div class="flex space-x-2 pb-2">
+            <i class="fa-solid fa-list-check text-2xl from-cyan-400 to-sky-500 bg-linear-[200deg] bg-clip-text text-transparent"></i>
+            <h2 class="font-bold text-xl">Todo</h2>
+          </div>
+            <div>
+              <from>
+              <div class="flex space-x-2">
+                <input type="text" class="bg-slate-300 rounded-md p-2 w-full text-slate-900 font-semibold focus:outline-none focus:ring-2 focus:ring-slate-400"/>
+                <button class="bg-green-700 rounded-md w-28 p-2">Add</button>
+              </div>
+              </from>
+              <div class="h-56 overflow-auto text-slate-300">
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+                <div class="flex space-x-2 p-2">
+                  <input type="checkbox"/>
+                  <p>this is your todo</p>
+                </div>
+              </div>
+            </div>
+          <div class="h-0.5 bg-slate-800/60"></div>
+          <div class="text-slate-300">
+            <button>All</button>
+            <span>•</span>
+            <button>Active</button>
+            <span>•</span>
+            <button>Completed</button>
+          </div>
+        </div>
+        <div class="bg-slate-900/60 backdrop-blur-md border-2 border-slate-800/60 rounded-sm p-2">
+          <div class="flex justify-between items-center text-slate-300">
+            
+          <div class="flex space-x-2 pb-2">
+            <i class="fa-solid fa-note-sticky text-2xl from-cyan-400 to-sky-500 bg-linear-[200deg] bg-clip-text text-transparent"></i>
+            <h2 class="font-bold text-xl">Notes</h2>
+          </div>
+            <p>Auto-save</p>
+          </div>
+          <div>
+            <textarea class="w-full h-56 focus:outline-none focus:ring-2 focus:ring-slate-400 bg-slate-300 rounded-md p-2 text-slate-900 font-semibold resize-none"></textarea>
+          </div>
+          <div class="h-0.5 bg-slate-800/60"></div>
+          <div class="flex items-center justify-between text-slate-300">
+            <button>clear all</button>
+            <button>0 word</button>
+          </div>
+        </div>
+        </div>
+    </div>
+      <footer class="mx-auto w-full py-3">
+        <div class="h-0.5 bg-slate-800/60 my-3"></div>
+        <div class="w-fit mx-auto">
+        <p class="text-slate-300 text-xs">&copy; 2026 DashSphere Interactive Hub. Built with Tailwind CSS & Vanilla JavaScript.</p>
+        </div>
+      </footer>
+    <div class="style bg-slate-800/70 h-40 w-40 absolute bottom-40 left-20 rounded-tl-full rounded-br-full rounded-tr-sm rounded-bl-sm backdrop-blur-md z-10 animate-[orbit_3s_linear_infinite]"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
