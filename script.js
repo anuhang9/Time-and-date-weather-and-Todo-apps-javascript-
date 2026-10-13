@@ -118,50 +118,26 @@ timeLocationSlot.innerText = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
 //fetch api
 
-if (!navigator.geolocation) retrun;
+// if (!navigator.geolocation) retrun;
+// console.log("test 123")
+// if (!navigator.geolocation)retrun;
 
-// navigator.geolocation.getCurrentPosition(
-// (position) => {
-// console.log("Location success!");
-
-// const lat = position.coords.latitude;
-// const lon = position.coords.longitude;
-
-// console.log("Latitude:", lat);
-// console.log("Longitude:", lon);
-// },
-// (error) => {
-// console.log("Location error:", error.code);
-// console.log("Message:", error.message);
-// },
-// );
-navigator.geolocation.getCurrentPosition(async (position) => {
+navigator.geolocation.getCurrentPosition((position) => {
+  
   const lat = position.coords.latitude;
   const lon = position.coords.longitude;
-  console.log(
-    `latitude: ${position.coords.latitude}, longtitude: ${position.coords.longitude}`,
-  );
-  const myApi = await fetch(
-    `https://api.openweathermap.org/data/4.0/onecall/current?lat=${lat}&lon=${lon}&appid=${c5f7ab354f01ab7b6a88cdd8f57bc4b6}`,
-  );
-  try {
-    console.log(myApi);
-  } catch (error) {
-    console.log(error);
-  }
+  
+  console.log(`latitude: ${position.coords.latitude}, longtitude: ${position.coords.longitude}`);
+  
+  // try {
+  // const myApi = await fetch(`https://api.openweathermap.org/data/4.0/onecall/current?lat=${lat}&lon=${lon}&appid=${c5f7ab354f01ab7b6a88cdd8f57bc4b6}`);
+  // const response =  await myApi.json()
+  
+  // console.log(response)
+  // } catch (error) {
+  //   console.log(error);
+  // }
+  
+},(error)=>{
+  console.log(error)
 });
-// navigator.geolocation.getCurrentPosition((e)=>{
-// console.l(e.coords)
-// const lat = e.coords.latitude;
-// const lon = e.coords.longitude;
-// return e.coords
-// retrun `${lat}&lon=${lon}`
-// })
-
-// async(()=>{
-// consoloe.log(fetchData);
-// })
-
-// const fetchWeatherApi = async()=>{
-// const fetch data = await fetch(https://api.openweathermap.org/data/4.0/onecall/current?lat={lat}&lon={lon}&appid={API key})
-// }
